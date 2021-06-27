@@ -2,6 +2,9 @@
 AutoReplyerのドキュメントへようこそ。
 =======================================
 
+.. warning::
+    addコマンドなどで、条件や返信内容に空白を入れたい場合は`Discord.pyで対応しているクォート記号 <https://github.com/Rapptz/discord.py/blob/master/discord/ext/commands/view.py#L28-L46>`_で囲む必要があります。
+    クォートを無効化したい場合はクォートの直前にバックスラッシュを入れてください。
 
 commands
 ==========
@@ -11,6 +14,8 @@ commands
 * :ref:`list`
 * :ref:`reset`
 
+
+.. _add:
 add
 -----
 自動返信を追加
@@ -18,11 +23,9 @@ add
 .. warning::
     メッセージ管理の権限が必要です
 
-
-構文::
+::
 
     ar.add <条件> <返信内容> [オプション]?
-
 
 
 .. csv-table::
