@@ -5,7 +5,7 @@ AutoReplyerのドキュメントへようこそ。
 :doc:`commands`
 ========
 
-* :doc:`commands`:ref:`add`
+* :ref:`add`
 * remove
 * list
 * reset
