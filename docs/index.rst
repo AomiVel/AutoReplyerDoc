@@ -166,10 +166,10 @@ time
 
 .. warning::
     以下の組み合わせは使用できません
-    * from時:-:to分
-    * \:from分-to時\:
-    * \:from分-from時\:to分
-    * from時\:to分-\:to分
+    - * from時:-:to分
+    - * \:from分-to時\:
+    - * \:from分-from時\:to分
+    - * from時\:to分-\:to分
 
 
 
@@ -214,6 +214,7 @@ perfect
 
 
 構文::
+
     perfect?<文字列>
     perf?<文字列>
 
@@ -242,6 +243,7 @@ any
 
 
 例文::
+
     "any(hello こんにちは おはよう こんばんわ こんばんは)"
     "any(おはよう おはようございます 'good morning')"
 
@@ -270,5 +272,6 @@ all
 
 
 例文::
+
     "all(あ い う え お)"
     "all(おきた time?12:-)"
