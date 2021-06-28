@@ -164,12 +164,11 @@ time
     タイムゾーンはJST(日本標準時)(UCT+9:00)です。
 
 
-.. warning::
-    以下の組み合わせは使用できません
-    - * from時:-:to分
-    - * \:from分-to時\:
-    - * \:from分-from時\:to分
-    - * from時\:to分-\:to分
+.. warning:: 以下の組み合わせは使用できません
+    * from時:-:to分
+    * \:from分-to時\:
+    * \:from分-from時\:to分
+    * from時\:to分-\:to分
 
 
 
