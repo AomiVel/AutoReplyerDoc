@@ -11,14 +11,14 @@ commands
 
 * :ref:`add`
 * :ref:`remove`
-* :ref:`list`
 * :ref:`reset`
+* :ref:`list`
 
 
 .. _add:
 
 add
------
+----------
 自動返信を追加
 
 .. warning::
@@ -41,14 +41,16 @@ add
 .. _remove:
 
 remove
---------
+----------
 自動返信を削除
 
 .. warning::
     メッセージ管理の権限が必要です
 
 ::
+
     ar.remove <識別方法> <識別内容>
+
 
 .. csv-table::
     :header: "引数名", "必須かどうか", "選択肢(識別方法)", "エイリアス(識別方法)"
@@ -56,3 +58,55 @@ remove
 
     "識別方法", "Yes", "id / condition / replycontent", "識別子 / 条件, cnd / 返信内容, cnt, rc"
     "識別内容", "Yes", "", ""
+
+
+
+.. _reset:
+
+reset
+----------
+自動返信をすべて削除
+
+.. warning::
+    管理者の権限が必要です
+
+::
+
+    ar.reset
+
+
+
+.. _list:
+
+list
+----------
+自動返信のリストを表示
+
+
+.. warning::
+    ページは数字で指定してください
+
+
+::
+
+    ar.list <ページ>?
+
+
+.. csv-table::
+    :header: "引数名", "必須かどうか", "備考"
+    :widths: 9, 18, 60
+
+    "ページ", "No", "指定されたページが存在するページより大きい場合は一番最後のページが表示されます"
+
+
+
+特殊表現
+===============
+
+**add**
+
+* re
+* time
+* perfect
+* any
+* all
