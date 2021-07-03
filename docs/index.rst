@@ -8,7 +8,7 @@ AutoReplyerのドキュメントへようこそ。
 
 .. note::
 
-	* `招待URL <https://discord.com/api/oauth2/authorize?client_id=856117107120668703&permissions=347200&scope=bot>`_
+    * `招待URL <https://discord.com/api/oauth2/authorize?client_id=856117107120668703&permissions=347200&scope=bot>`_
     * `サポートサーバー <https://discord.gg/r8SgQWW5Ha>`_
 
 
