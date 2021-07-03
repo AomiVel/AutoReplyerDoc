@@ -16,6 +16,14 @@ AutoReplyerのドキュメントへようこそ。
     * addコマンドなどで、条件や返信内容に空白を入れたい場合は `Discord.pyで対応しているクォート記号 <https://github.com/Rapptz/discord.py/blob/master/discord/ext/commands/view.py#L28-L46>`_ で囲む必要があります。
     * クォートを無効化したい場合はクォートの直前にバックスラッシュを入れてください。
 
+bot
+==========
+Botについて
+
+デフォルトの接頭字: :code:`ar.`
+※カスタムプレフィックス対応予定
+
+
 commands
 ==========
 各コマンドについて
