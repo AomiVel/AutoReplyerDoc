@@ -6,9 +6,15 @@ AutoReplyerのドキュメントへようこそ。
 **ドキュメントの修正案は常に受け付けています**
 
 
+.. note::
+
+	* `招待URL <https://discord.com/api/oauth2/authorize?client_id=856117107120668703&permissions=347200&scope=bot>`_
+    * `サポートサーバー <https://discord.gg/r8SgQWW5Ha>`_
+
+
 .. warning::
-    addコマンドなどで、条件や返信内容に空白を入れたい場合は `Discord.pyで対応しているクォート記号 <https://github.com/Rapptz/discord.py/blob/master/discord/ext/commands/view.py#L28-L46>`_ で囲む必要があります。
-    クォートを無効化したい場合はクォートの直前にバックスラッシュを入れてください。
+    * addコマンドなどで、条件や返信内容に空白を入れたい場合は `Discord.pyで対応しているクォート記号 <https://github.com/Rapptz/discord.py/blob/master/discord/ext/commands/view.py#L28-L46>`_ で囲む必要があります。
+    * クォートを無効化したい場合はクォートの直前にバックスラッシュを入れてください。
 
 commands
 ==========
