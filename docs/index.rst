@@ -32,6 +32,7 @@ commands
 * :ref:`remove`
 * :ref:`reset`
 * :ref:`list`
+* :ref:`find`
 
 
 .. _add:
@@ -120,6 +121,28 @@ list
     :widths: 9, 18, 12, 60
 
     "ページ", "No", "1", "指定されたページが存在するページより大きい場合は一番最後のページが表示されます"
+
+
+
+.. _find:
+
+find
+----------
+特定の条件にマッチする自動返信のIDを取得
+
+
+::
+
+    ar.find <識別方法> <識別内容>
+
+
+.. csv-table::
+    :header: "引数名", "必須かどうか", "要素の数", "選択肢(識別方法)", "エイリアス(識別方法)"
+    :widths: 12, 18, 12, 87, 90
+
+    "識別方法", "Yes", "1", "id / condition / replycontent", "識別子 / 条件, cnd / 返信内容, cnt, rc"
+    "識別内容", "Yes", "1", "", ""
+
 
 
 .. _uniqueexpression:
