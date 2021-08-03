@@ -33,6 +33,7 @@ commands
 * :ref:`reset`
 * :ref:`list`
 * :ref:`find`
+* :ref:`what`
 
 
 .. _add:
@@ -143,6 +144,25 @@ find
     "識別方法", "Yes", "1", "id / condition / replycontent", "識別子 / 条件, cnd / 返信内容, cnt, rc"
     "識別内容", "Yes", "1", "", ""
 
+
+
+.. _what:
+
+what
+----------
+IDから条件、返信内容等の情報を取得する
+
+
+::
+
+    ar.what <ID>
+
+
+.. csv-table::
+    :header: "引数名", "必須かどうか", "要素の数"
+    :widths: 9, 18, 12
+
+    "ID", "Yes", "1"
 
 
 .. _uniqueexpression:
